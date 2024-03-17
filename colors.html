@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+ 	<head>
+ 	<title>Animation</title>
+	<link rel="stylesheet" href="style.css">
+	<script  src="style.js"></script>
+
+	<style>
+			h1 {     
+		color: rgb(255, 255, 255); 
+		text-align: center;
+		border-right: 15px;
+		background-color: rgba(0, 0, 0, 0.416);
+		border-radius: 25px;
+		font-size: 80px;
+	}  
+
+		.btn-group button {
+		background-color: #ffffff; /* Green background */
+		border: 1px solid rgb(77, 243, 246); /* PURPLE border */
+		border-radius: 25px;
+		color: white; /* White text */
+		cursor: pointer; /* Pointer/hand icon */
+		padding: 100px;  
+		background-color: rgba(0, 0, 0, 0.696);
+		display: block;
+		margin: auto;
+		font-size: 45px;
+		font-weight: bold;
+		}
+		
+		.btn-group button:not(:last-child) {
+			border-right: none; /* Prevent double borders */
+		}
+		
+		/* Clear floats (clearfix hack) */
+		.btn-group:after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+		/* Add a background color on hover */
+		.btn-group button:hover {
+			background-color: #043d3daf;
+		}
+	</style>
+
+
+ 	</head>
+ 	<body>
+        <h1>Medical Programs</h1>
+			<div class="popup" Id="popup-1">
+				<div class="btn-group">
+					<a href="adn.html">
+						<button>ADN</button><br>
+					</a>
+				<br><a href="lvn.html"><button>LVN</button><br></a>
+				<br><a href="rn.html"><button>RN</button></a>
+				</div>
+			</div>
+ 	</body>
+</html>
